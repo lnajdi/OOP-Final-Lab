@@ -1,12 +1,14 @@
 package Etape1;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Equipe {
     //Attributs : nom, liste des étudiants, nombre d'étudiants, nombre maximum d'étudiants.
     private String nomEquipe;
     
-    private  List<Etudiant> etudiants ;
+    private  List<Etudiant> etudiants = new ArrayList<>(); // Initialize the list here
+ ;
 
     private int nombreEtudiants;
 

@@ -18,11 +18,10 @@ public class App {
         Equipe equipe2 = new Equipe("Équipe FST", 3);  
         Equipe equipe3 = new Equipe("Équipe ENSA", 3);
 
-
         //ajout équipes au hackathon 
-            hackathon.addEquipe(equipe1);
-            hackathon.addEquipe(equipe2);
-            hackathon.addEquipe(equipe3);
+        hackathon.addEquipe(equipe1);
+        hackathon.addEquipe(equipe2);
+        hackathon.addEquipe(equipe3);
 
 
         // Création et ajout des étudiants pour l'Équipe FPT
@@ -43,6 +42,10 @@ public class App {
         Etudiant etudiant7 = new Etudiant("Abdelali", "Boufekrane", "1400002360", equipe3);
         Etudiant etudiant8 = new Etudiant("Said", "lamrani", "1400002361",    equipe3); 
         Etudiant etudiant9 = new Etudiant("Mohamed", "Solaymani","1400002362", equipe3);
+
+
+
+      
 
 
         //Affichage deatails hackathon

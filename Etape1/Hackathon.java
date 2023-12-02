@@ -1,14 +1,14 @@
 package Etape1;
 
 import java.time.LocalDate;
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Hackathon {
     private String nom;
     private LocalDate  date;
     private Ville ville;
-    private List<Equipe> equipes;
+    private List<Equipe> equipes = new ArrayList<>();
 
     public Hackathon(String nom, LocalDate date, Ville ville, List<Equipe> equipes) {
         this.nom = nom;
