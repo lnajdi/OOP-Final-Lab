@@ -1,8 +1,4 @@
 # OOP-Final-Lab
-Bien sûr, voici une version révisée du rapport technique, en commençant par une introduction au concept de hackathon pour ceux qui ne sont pas familiers avec ce terme :
-
----
-
 # Rapport Technique: Projet Java pour un Scénario de Hackathon
 
 ## Introduction
@@ -28,5 +24,4 @@ Le cœur du système est représenté par le diagramme de classes suivant, qui d
 5. **MembreJury**: Chaque membre du jury a un rôle spécifique et des responsabilités, comme évaluer les projets ou organiser des sessions.
 
 6. **Discours**: Les discours sont des présentations faites pendant le hackathon, souvent pour inspirer ou éduquer les participants.
-
 
