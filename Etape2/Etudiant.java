@@ -20,6 +20,15 @@ public class Etudiant extends Personne {
         }
     }
 
+  
+
+    public Etudiant(String nom, String prenom, String cne, Universite universite) {
+        super(nom, prenom);
+        this.cne = cne;
+        this.universite = universite;
+    
+    }
+
     //getters andd setters
     public String getCne() {
         return cne;

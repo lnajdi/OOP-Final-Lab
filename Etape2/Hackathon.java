@@ -86,6 +86,7 @@ public class Hackathon {
 
     // Méthode pour afficher les informations du hackathon
     public void afficherInfos() {
+        System.out.println("****************************************************");
         System.out.println("Hackathon: " + this.nom + ", Ville: " + this.ville);
         System.out.println("Équipes:");
         for (Equipe equipe : this.equipes) {
