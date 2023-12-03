@@ -1,11 +1,6 @@
-package Etape1;
-
 
 import java.time.LocalDate;
-
-
 public class App {  
-
     public static void main(String[] args) {
         // Création du hackathon AI4Morocco 2023 
     
@@ -52,6 +47,17 @@ public class App {
 
         //afficher hackathon infos
         hackathon.afficherInfos();
+
+
+
+        // Sauvegarde des données du hackathon
+        HackathonDataSaver.saveHackathonData(hackathon, "data/hackathon.csv");
+
+        // Sauvegarde des données des équipes
+        HackathonDataSaver.saveEquipesData(hackathon.getEquipes(), "data/equipes.csv");
+
+        // Sauvegarde des données des étudiants
+        HackathonDataSaver.saveEtudiantsData(hackathon.getEquipes(), "data/etudiants.csv");
     }
 }
     
